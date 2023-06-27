@@ -1,6 +1,6 @@
 ﻿namespace UnitTests.Contracts;
 
-public interface IDataGenerator
+internal interface IDataGenerator
 {
     public List<User> GenerateUsers(int amount);
 }

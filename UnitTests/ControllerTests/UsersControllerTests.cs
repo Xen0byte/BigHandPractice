@@ -1,7 +1,7 @@
 namespace UnitTests.ControllerTests;
 
 [TestFixture]
-public class UsersControllerTests
+internal class UsersControllerTests
 {
     private UsersController _controller = null!;
     private const int UsersCount = 100;

@@ -1,10 +1,10 @@
 ﻿namespace UnitTests.Services;
 
-public class DataGeneratorService : IDataGenerator
+internal class DataGeneratorService : IDataGenerator
 {
     private readonly Faker _faker;
 
-    public DataGeneratorService() => _faker = new Faker();
+    internal DataGeneratorService() => _faker = new Faker();
 
     public List<User> GenerateUsers(int amount)
     {
